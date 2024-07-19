@@ -1,0 +1,199 @@
+body {
+    font-family: Arial, sans-serif;
+}
+header{
+    border-radius: 5px;
+}
+header , footer {
+    background: linear-gradient(to right, #4f1579, #f97428);
+    color: white;
+    padding: 20px;
+    text-align: center;
+
+}
+
+
+main{
+    background-color: rgb(49, 186, 236);
+    margin: 5px;
+    border-radius: 5px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color:rgb(42, 140, 175) ;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0,0, 0.1);
+    
+}
+/* @keyframes bounce {
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(-10PX);
+    }
+    
+} */
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    
+}
+
+nav a:hover {
+    background-color:rgb(12, 112, 148) ;
+    
+}
+
+.content-section {
+    display: none;
+    padding: 20px;
+}
+
+#songs-buttons, #shayari-buttons, #thoughts-buttons {
+    margin-bottom: 25px;
+
+}
+
+.content-item {
+    display: none;
+}
+.fas, .fab{
+    margin-right: 1px;
+    color: inherit;
+}
+
+footer{
+    padding: 5px 0;
+    height: 50px;
+    border-radius: 200px;
+    animation: bounce 1s infinite alternate; 
+}
+button{
+    border-radius: 20px;
+    font-size: larger;
+    background-color: #ffffff00;
+   
+}
+button :hover{
+    background: #555;
+    cursor:help;
+}
+.dark-mode button{
+    background-color: #555;
+    color: #fff;
+}
+.dark-mode p {
+    color: #fff;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+header{
+    border-radius: 5px;
+}
+header , footer {
+    background: linear-gradient(to right, #4f1579, #f97428);
+    color: white;
+    padding: 20px;
+    text-align: center;
+
+}
+
+
+main{
+    background-color: rgb(49, 186, 236);
+    margin: 5px;
+    border-radius: 5px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color:rgb(42, 140, 175) ;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0,0, 0.1);
+    
+}
+/* @keyframes bounce {
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(-10PX);
+    }
+    
+} */
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    
+}
+
+nav a:hover {
+    background-color:rgb(12, 112, 148) ;
+    
+}
+
+.content-section {
+    display: none;
+    padding: 20px;
+}
+
+#songs-buttons, #shayari-buttons, #thoughts-buttons {
+    margin-bottom: 25px;
+
+}
+
+.content-item {
+    display: none;
+}
+.fas, .fab{
+    margin-right: 1px;
+    color: inherit;
+}
+
+footer{
+    padding: 5px 0;
+    height: 50px;
+    border-radius: 200px;
+    animation: bounce 1s infinite alternate; 
+}
+button{
+    border-radius: 20px;
+    font-size: larger;
+    background-color: #ffffff00;
+   
+}
+button :hover{
+    background: #555;
+    cursor:help;
+}
+.dark-mode button{
+    background-color: #555;
+    color: #fff;
+}
+.dark-mode p {
+    color: #fff;
+}
